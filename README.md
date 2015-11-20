@@ -43,7 +43,7 @@ var ExampleComponent = React.createClass({
         isOpen={this.state.isReviewModalOpen}
         onSubmitReview={this.submitReview}
         onCloseReviewButtonPress={this.onCloseReviewButtonPress}
-        titleText={'Test Modal}
+        titleText={'Test Modal'}
       />);
     }
     if (Platform.OS === 'ios') {
