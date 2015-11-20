@@ -1,4 +1,4 @@
-# Webreg Scrapy
+# React Native Make Review Modal Component
 
 > A React Native component for displaying a modal for making reviews. Compatible with both iOS and Android.
 
