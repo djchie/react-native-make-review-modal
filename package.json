@@ -1,6 +1,6 @@
 {
   "name": "react-native-make-review-modal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React Native component for displaying a modal for making reviews",
   "main": "index.js",
   "scripts": {
