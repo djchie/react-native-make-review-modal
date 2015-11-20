@@ -9,8 +9,7 @@
   "keywords": [
     "react",
     "native",
-    "react",
-    "native",
+    "react native",
     "review",
     "reviews",
     "make",
@@ -18,7 +17,11 @@
     "make",
     "review",
     "star",
-    "stars"
+    "stars",
+    "react-component",
+    "react-native",
+    "ios",
+    "android"
   ],
   "author": "Derrick Chie <djchie.dev@gmail.com> (https://github.com/djchie)",
   "license": "ISC",
