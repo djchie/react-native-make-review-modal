@@ -64,8 +64,8 @@ var MakeReviewModalView = React.createClass({
         <Modal animated={true} visible={this.state.visible} transparent={true}>
           <ScrollView scrollEnabled={false} keyboardShouldPersistTaps={false} contentContainerStyle={styles.container}>
             <View style={styles.solidContent}>
-              <View style={styles.foodTitleContainer}>
-                <Text style={styles.foodTitle}>{this.props.food.name}</Text>
+              <View style={styles.titleContainer}>
+                <Text style={styles.title}>{this.props.titleText}</Text>
               </View>
               <View style={styles.reviewContainer}>
                 <View style={styles.headerContainer}>
@@ -168,11 +168,11 @@ var styles = StyleSheet.create({
     backgroundColor: 'white',
     top: 56,
   },
-  foodTitleContainer: {
+  titleContainer: {
     marginTop: 70,
     flexDirection: 'row',
   },
-  foodTitle:{
+  title:{
     fontSize: 30,
     fontWeight: 'bold',
     color: 'white',
